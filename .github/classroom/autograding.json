@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "starttest",
+      "setup": "chmod +x ./.build/entrypoint.sh",
+      "run": "./.build/entrypoint.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
